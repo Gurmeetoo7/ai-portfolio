@@ -1,23 +1,19 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Gurmeet Padda — Agile Project Manager",
+  author: "Gurmeet Padda",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Agile Project Manager | Delivery Operations | Global Client Management | AI Orchestration",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/gurmeet.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/gurry/" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +21,86 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Gurmeet Padda",
+    specialty: "Agile Project Manager",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Client-facing Agile Project Manager with nine years of experience at Accenture across global digital marketing projects, product launches, transitions, and service operations.",
+    email: "gurmeetpadda@hotmail.co.uk",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Accenture",
+      position: "Agile Project Manager",
+      startDate: "Jan 2022",
+      endDate: "Jan 2026",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Owned global digital marketing projects end to end, from planning through delivery, using Adobe Workfront as the primary project management tool.",
+        "Aligned priorities with clients, managed change, and assigned work across Agile teams to meet schedule and budget commitments.",
+        "Reviewed SLA reports by reporting interval and coordinated corrective action when delivery was at risk.",
+        "Prepared weekly business review decks using KPI trends, bug reports, and root cause analyses.",
+        "Managed internal and external audits and updated standard operating procedures and learning logs based on audit findings.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Accenture",
+      position: "Operations",
+      startDate: "Jan 2019",
+      endDate: "Dec 2021",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Managed attendance, leave, and team schedules for 20-24 people using CareBay and People Connect.",
+        "Tracked performance by quartile, coached staff in the lowest quartile, and monitored performance improvement plans.",
+        "Improved CSAT by 10% and reduced wait times through performance tracking and accountability measures.",
+        "Used the Google LOVE and quality frameworks for assessments and NSAT audits, with Metrics Tracker, Hawk Tracker, and FMEA.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      company: "Accenture",
+      position: "Operations (Transitions)",
+      startDate: "Jan 2017",
+      endDate: "Dec 2018",
+      summary: [
+        "Coordinated product launches and operational transitions across Engineering, Operations, and Quality.",
+        "Aligned requirements, streamlined workflows, and supported user adoption.",
+        "Gathered and analyzed user feedback to guide product enhancements and improve customer satisfaction.",
+      ],
+    },
+    {
+      company: "Dell International",
+      position: "Technical Support",
+      startDate: "Mar 2009",
+      endDate: "Oct 2010",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "Provided technical support to US customers and identified opportunities to upsell Dell products.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "BillBuddy AI Case Study",
+      summary:
+        "Designed a six-agent investigation into a subscription cancellation spike, validating customer evidence and recommending a pause-flow repair before a price cut.",
+      linkPreview: "/billbuddy/index.html",
+      image: "/raja.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "n8n AI Agent and Workflow Automation",
+      summary:
+        "Built AI agents and automated workflows with n8n, using agentic frameworks to break business questions into tasks for evidence gathering, analysis, and decision briefs.",
+      image: "/raja.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Global Digital Marketing Delivery",
+      summary:
+        "Managed global digital marketing projects in Adobe Workfront, coordinating Agile delivery, SLAs, audits, client reviews, and operational improvements.",
+      image: "/raja.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      I am Gurmeet Padda, a client-facing Agile Project Manager with nine years at Accenture across digital marketing delivery, product launches, transitions, and service operations. I align stakeholders, prioritize deliverables, manage change, and keep teams focused on scope, timing, budget, and service levels.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      My core strengths include Adobe Workfront, Jira, Agile frameworks, stakeholder and change management, Excel, Power BI, SQL, Python, cloud technologies, user research, and competitive analysis. I am also developing practical AI experience by building n8n agents and automated workflows.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/gurmeet.png",
   },
 };
 
